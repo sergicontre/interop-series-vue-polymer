@@ -2,7 +2,7 @@
   <div id='app'>
     <h1> {{msg}}</h1>
     <hr>
-      <tinder-item avatar="../assets/logo.png" :name="name" :description="description" v-on:like="likeHandler" v-on:nope="nopeHandler"></tinder-item>
+      <tinder-item avatar="https://github.com/sergicontre/interop-series-vue-polymer/blob/master/src/assets/vue.png?raw=true" :name="name" :description="description" v-on:like="likeHandler" v-on:nope="nopeHandler"></tinder-item>
   </div>
 </template>
 
